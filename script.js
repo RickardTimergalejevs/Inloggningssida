@@ -53,30 +53,3 @@ btnLogout.addEventListener("click", function() {
 
 
 
-
-/* 
-const btn = document.getElementById("btn")
-const nameBox = document.getElementById("name-box")
-
-btn.addEventListener("click", function() {
-    const textBox = document.getElementById("text").value
-    
-    localStorage.setItem("name", textBox)
-
-    location.reload()
-})
-
-const resultName = document.getElementById("name-box").innerHTML = localStorage.getItem("name")
-
-if (resultName) {
-    const deleteBtn = document.createElement("button")
-    const textBtn = document.createTextNode("Remove!")
-    deleteBtn.appendChild(textBtn)
-    document.body.after(nameBox, deleteBtn)
-
-    deleteBtn.addEventListener("click", function() {
-        nameBox.remove()
-        localStorage.clear()
-        deleteBtn.remove()
-    })
-} */
